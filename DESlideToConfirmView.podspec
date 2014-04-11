@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
-  s.frameworks   = ['Foundation']
+  s.frameworks   = ['Foundation', 'UIKit', 'QuartzCore']
   s.source       = { :git => 'https://github.com/dreamengine/DESlideToConfirmView.git', :tag => s.version.to_s }
   s.source_files = 'src/*.{h,m}'
 
